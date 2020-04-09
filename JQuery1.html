@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <Title>JQuery All Tutorials</Title>
+        <link rel="stylesheet" href="JQuery.css">
+    </head>
+    <body>
+
+        <!-- Start Navbar -->
+        <uL class="navbar">
+            <li><a href="#" data-scroll="home">Home</a></li>
+            <li><a href="#" data-scroll="aboutUs">About Us</a></li>
+            <li><a href="#" data-scroll="services">Services</a></li>
+            <li><a href="#" data-scroll="solutions">Solutions</a></li>
+            <li><a href="#" data-scroll="products">Products</a></li>
+            <li><a href="#" data-scroll="contactUs">Contact Us</a></li>
+        </uL>
+        <!-- End Navbar -->
+
+        <!-- Start Fixed Menu -->
+
+        <div class="fixed-menu">
+            <button class="fa-gear"></button>
+            <h3>Change Colors</h3>
+            <ul class="change-colors">
+                <li data-color="blue"></li>
+                <li data-color="red"></li>
+                <li data-color="green"></li>
+                <li data-color="purple"></li>
+            </ul>
+            <h3>Important Links</h3>
+            Testing Links
+
+        </div>
+
+        <!-- End Fixed Menu -->
+
+
+        <!-- Start Sections -->
+        <div id="home" class="block">
+                <h2>Home</h2>
+                <span class="showPopUp" data-popup="first-popup">Show 1st PopUp</span>
+                <span class="showPopUp" data-popup="second-popup">Show 2nd PopUp</span>
+         
+        <!-- Start Pop Up -->
+
+         <div class="popup first-popup">
+
+            <div class="inner">
+                <h2>This is 1st PopUp</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium culpa, maxime, amet obcaecati iusto ullam alias, a nesciunt ducimus non in. Aliquid culpa autem quaerat ducimus quibusdam, iusto veritatis.</p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+
+        <div class="popup second-popup">
+
+            <div class="inner">
+                <h2>This is 2nd PopUp</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium culpa, maxime, amet obcaecati iusto ullam alias, a nesciunt ducimus non in. Aliquid culpa autem quaerat ducimus quibusdam, iusto veritatis.</p>
+                <button class="close">Close</button>
+            </div>
+        </div>
+
+        <!-- End Pop Up -->
+
+        <!-- Start Error Message -->
+
+        <div class="error">
+            This is Error Message
+            This is Error Message
+            This is Error Message
+        </div>
+
+        <!-- End Error Message -->
+                
+                
+        <!-- Start Buttons With Effects-->
+
+        <div class="buttons-effects">
+            <button class="buttons-effect from-left">
+                <span>From Left</span>
+            </button>
+            <button class="buttons-effect from-top">
+                <span>From Top</span>
+            </button>
+            <button class="buttons-effect border-left">
+                <span>Border From Left</span>
+            </button>
+            <button class="buttons-effect border-top">
+                <span>Border From Top</span>
+            </button>
+        </div>
+        <div class="buttons-effects">
+            <button class="buttons-effect bounce bounce-one">
+                Bounce Once
+            </button>
+            <button class="buttons-effect bounce bounce-two">
+                Bounce Twice
+            </button>
+            <button class="buttons-effect bounce bounce-three">
+                Bounce Triple
+            </button>
+        </div>
+        <!-- End Buttons With Effects --> 
+        
+
+        <!-- Start Progress Bar-->
+
+        <div class="animated-progress progress-blue">
+            <span data-progress="45%"></span>
+            <span class="prec"></span>
+        </div>
+        <div class="animated-progress progress-red">
+            <span data-progress="25%"></span>
+            <span class="prec"></span>
+        </div>
+        <div class="animated-progress progress-green">
+            <span data-progress="60%"></span>
+            <span class="prec"></span>
+        </div>
+        <div class="animated-progress progress-purple">
+            <span data-progress="75%"></span>
+            <span class="prec"></span>
+
+        </div>
+
+        <!-- End Progress Bar-->
+
+        <!-- Start Gallery -->
+
+        <div class="gallery">
+            <div class="master-img">
+                <button class="fa-chevron-left" class="skin-background">Previous</button>
+                <button class="fa-chevron-right" class="skin-background">Next</button>
+                <img src="1.jpg" alt=""/>
+            </div>
+            <div class="thumbnails">
+                <img class="active" src="1.jpg" alt=""/>
+                <img src="2.jpg" alt=""/>
+                <img src="3.png" alt=""/>
+                <img src="4.jpg" alt=""/>
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+        <!-- Start Products-->
+        <div class="products">
+            <div class="product">
+                <h3>Product One</h3><br>
+                <span class="data">25/4/2017</span><br>
+                <img src="http://placehold.it/100/100" alt=""><br>
+                <button class="fa-plus">Show Description</button>
+                <p class="description">This is Test Description</p>
+            </div>
+            <div class="product">
+                <h3>Product Two</h3><br>
+                <span class="data">25/4/2017</span><br>
+                <img src="http://placehold.it/100/100" alt=""><br>
+                <button class="fa-plus">Show Description</button>
+                <p class="description">This is Test Description</p>
+            </div>
+        </div>
+
+        <!-- End Products -->
+
+        <!-- Start Grid/List Items-->
+        <div class="view-options">
+            <button class="fa-list fa-fw fa-2x" data-class="list-view">List</button>
+            <button class="fa-th-large fa-fw fa-2x" data-class="grid-view">Gird</button>
+        </div>
+        <div class="items list-view">
+            <div class="item">
+                <h3>item One</h3><br>
+                <span class="data">25/4/2017</span><br>
+                <img src="http://placehold.it/100/100" alt=""><br>
+                <button class="fa-plus">Show Description</button>
+                <p class="description">This is Test Description</p>
+            </div>
+            <div class="item">
+                <h3>item Two</h3><br>
+                <span class="data">25/4/2017</span><br>
+                <img src="http://placehold.it/100/100" alt=""><br>
+                <button class="fa-plus">Show Description</button>
+                <p class="description">This is Test Description</p>
+            </div>
+        </div>
+
+        <!-- End Grid/List Items-->
+
+        <!-- Start Form -->
+
+        <div class="our-form">
+            <form>
+                <div>
+                    <input class="detect-unicode" type="text" required="required" placeholder="Type Your Name"/>
+                    <span class="the-message">Please Fill This Field</span>
+                    <div class="unicode"></div>
+                </div>
+
+                <div>
+                    <input class="auto-direction" type="email" required="required" placeholder="Type Your Email"/>
+                    <span class="the-message">Please Fill This Field</span>
+                </div>
+
+                <div>
+                    <input type="password" required="required" placeholder="Type Your Password"/>
+                    <span class="the-message">Please Fill This Field</span>
+                </div>
+
+                <div>
+                    <textarea required="required" placeholder="Type Your Message"></textarea>
+                    <span class="the-message">Please Fill This Field</span>
+                </div>
+
+                <div>
+                    <input class="add-tag" type="text" placeholder="Please Type Tags Then Press [,]"/>
+                    <div class="tags"></div>
+                </div>
+    
+                <div>
+                    <input type="file" />
+                </div>
+
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+        
+        <!-- End Form -->
+        
+        <!-- Start Trimmed Texts -->
+
+        <div class="trimmed-texts">
+            <p class="p-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis adipisci nihil, perspiciatis assumenda ex optio dicta voluptate architecto ratione doloremque placeat maiores voluptas saepe incidunt quis quasi dolor ducimus eveniet!</p>
+            <p class="p-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis adipisci nihil, perspiciatis assumenda ex optio dicta voluptate architecto ratione doloremque placeat maiores voluptas saepe incidunt quis quasi dolor ducimus eveniet!</p>
+            <p class="p-three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis adipisci nihil, perspiciatis assumenda ex optio dicta voluptate architecto ratione doloremque placeat maiores voluptas saepe incidunt quis quasi dolor ducimus eveniet!</p>
+        </div>
+
+        <!-- End Trimmed Texts -->
+
+        <!-- Start Same Height Divs-->
+
+        <div class="container same-height">
+            <div class="one">
+                This is Div This is Div This Is Div This is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is Div
+            </div>
+            <div class="two">
+                This is Div This is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is Div This Is Div This is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is Div
+            </div>
+            <div class="three">
+                This is Div This is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is Div This Is Div This is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is DivThis is Div
+            </div>
+        </div>
+
+        <!-- End Same Height Divs-->
+        
+        <!-- Start Shuffling Cards -->
+
+        <div class="container">
+            <div class="cards">
+                <div class="card card-one"></div>
+                <div class="card card-two"></div>
+                <div class="card card-three"></div>
+                <div class="card card-four"></div>
+                <div class="card card-five"></div>
+                <div class="card card-six"></div>
+                <div class="card card-seven"></div>
+                <div class="card card-eight"></div>
+            </div>
+        </div>
+
+        <!-- End Shuffling Cards -->
+
+        <!-- Start Blink Warning -->
+
+        <div class="container">
+            <h3 class="blink-warning">This is Wanring</h3>
+        </div>
+
+        <!-- End Blink Warning -->
+
+        <!-- Start To Do List -->
+
+        <div class="container">
+            <div class="todo-list">
+                <h3> To Do List </h3>
+                <ul class="tasks">
+                    <li>Finishing Python Cousre</li>
+                    <li>Learning The New Lesson</li>
+                    <li>Call My Friend</li>
+                </ul>
+                <form class="add-task" method="POST">
+                    <input type="text" class="task-input" name="task" placeholder="Add New Task"/>
+                </form>
+            </div>
+        </div>
+
+        <!-- End To Do List -->
+
+        <!-- Start TypeWriting  Effects -->
+
+        <div class="container">
+            <p class="typer" data-text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis adipisci nihil, perspiciatis assumenda ex optio dicta voluptate architecto ratione doloremque placeat maiores voluptas saepe incidunt quis quasi dolor ducimus eveniet!'></p>
+        </div>
+
+        <!-- End TypeWriting Effects -->
+
+        <!-- Start Calculate Item Prices-->
+
+        <div class='container'>
+            <table class="summary">
+                <tr>
+                    <td>Name</td>
+                    <td>Value</td>
+                    <td>PRice</td>
+                </tr>
+                <tr>
+                    <td>Data One</td>
+                    <td>10 Items</td>
+                    <td class="price">100</td>
+                </tr>
+                <tr>
+                    <td>Data Two</td>
+                    <td>5 Items</td>
+                    <td class="price">80</td>
+                </tr>
+                <tr>
+                    <td>Data Three</td>
+                    <td>1 Items</td>
+                    <td class="price">20</td>
+                </tr>
+                <tr>
+                    <td>Data Four</td>
+                    <td>20 Items</td>
+                    <td class="price">200</td>
+                </tr>
+                <tr>
+                    <td>Data Five</td>
+                    <td>2 Items</td>
+                    <td class="price">28</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td class="the-total"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- End Calculate Item Prices-->
+
+        <!-- Start Auto Changing Notes -->
+
+        <div class="container">
+            <div class="text-ticker">
+                <h3> Today Notes </h3>
+                <ul class="ticker-list">
+                    <li class="active">This is Line Number One To Test </li>
+                    <li>This is Line Number Two To Test </li>
+                    <li>This is Line Number Three To Test </li>
+                    <li>This is Line Number Four To Test </li>
+                    <li>This is Line Number Five To Test </li>
+                    <li>This is Line Number Six To Test </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- End Auto Changing Notes -->
+
+        <!-- Start Dynamic Tabs -->
+
+        <div class="container">
+            <span class="switch-tabs"> Switch View </span>
+            <div class="dynamic-tabs left-tabs">
+                <ul class="tabs-list">
+                    <li class="active" data-content=".content-one">One</li>
+                    <li data-content=".content-two">Two</li>
+                    <li data-content=".content-three">Three</li>
+                    <li data-content=".content-four">Four</li>
+                    <li data-content=".content-five">Five</li>
+                </ul>
+                <div class="content-list">
+                    <div class="content-one"> This is Content Number One</div>
+                    <div class="content-two"> This is Content Number Two</div>
+                    <div class="content-three"> This is Content Number Three</div>
+                    <div class="content-four"> This is Content Number Four</div>
+                    <div class="content-five"> This is Content Number Five</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Dynamic Tabs -->
+
+        <!--- Start Email Suggest Box -->
+
+        <div class="container">
+            <form>
+                <input class="email-suggest"
+                type="email"
+                name="email"
+                autocomplete="off"
+                placeholder="Type Your Email"/>
+            </form>
+        </div>
+
+        <!-- End Email Suggest Box -->
+
+        <!-- Start Extend Element With Height -->
+
+        <ul class="extendh"> 
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+
+        <!-- End Extend Element With Heigth -->
+
+        <!-- Start Extend Element With Red Color -->
+
+        <ul class="extendr"> 
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+
+        <!-- End Extend Element With Red Color -->
+
+        <!-- Start Calculate Textarea Remaining Letters -->
+
+        <form>
+            <textarea class='counterarea' id="ourfield" rows="10" cols="50" maxlength="140"></textarea>
+            <div class="counter">
+            </div>
+        </form>
+
+        <!-- End Calculate Textarea Remaining Letters -->
+
+        <!-- Start Convert Password Field To Text -->
+
+        <input class='convert' type="password" name="pass"/>
+        <button class="myConvert">Show Password</button>
+
+        <!-- End Convert Password Field To Text -->
+
+        <!-- Start Make Horizontal Slider -->
+
+        <section class="slider-sec">
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+            <div class="slider-item"> 
+                Item
+            </div>
+            <div class="slider-info">
+                Info
+            </div>
+        </section>
+
+        <!-- End Make Horizontal Slider -->
+
+        <!-- Start Make Infinity Animation Function -->
+
+        <div class="offer"> 
+            <img src="5.jpg" alt="Click"/>
+            This Is Our Offer
+        </div>        
+
+        <!-- Start Make Infinity Animation Function -->
+
+        <!-- Start Count Down -->
+
+        <div class="countdown">20</div>
+
+        <!-- End Count Down -->
+
+        <!-- Start Generate Options -->
+        
+        <select id="years" name="years">
+
+        </select>
+
+        <!-- End Generate Options -->
+
+        <!-- Start Jquery Accordion Method-->
+
+            
+
+        <!-- End Jquery Accordion Method-->
+
+    </div>
+        <div id="aboutUs" class="block">
+            <h2>About Us</h2>
+        </div>
+        <div id="services" class="block">
+            <h2>Services</h2>
+        </div>
+        <div id="solutions" class="block">
+            <h2>Solutions</h2>
+        </div>
+        <div id="products" class="block">
+            <h2>Products</h2>
+        </div>
+        <div id="contactUs" class="block">
+            <h2>Contact Us</h2>
+        </div>
+        <!-- End Sections -->
+
+        <!--Start Scroll To Top-->
+
+        <button class="myBtn">Up</button>
+
+        <!--End Scroll To Top-->
+
+        <!-- Start Buttons With Effects-->
+
+        <div class="buttons-effects">
+            <button class="buttons-effect from-left">
+                <span></span>
+                <span>Download</span>
+            </button>
+        </div>
+
+        <!-- End Buttons With Effects-->
+
+         <!-- Start Create Jquery Centering Plugin -->
+
+         <div class="our-test-one"> This is Text </div>
+
+         <!-- End Create Jquery Centering Plugin -->
+
+         <!--Start Create Jquery Coloring Plugin-->
+
+            <div class="our-test-two"> This is Text </div>
+
+        <!--End Create Jquery Coloring Plugin-->
+
+
+
+        <script src="jquery-1.11.2.js"></script>
+        <script src="JQuery.js"></script>
+    </body>
+</html>
